@@ -2,3 +2,38 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1, h2, h3 {
+    color: #3d82cc;
+}
+
+p {
+    width: 1000px;
+}
+
+
+ul {
+    background-color: #ececec;
+    width: auto;
+    height: auto;
+    padding: 20px;
+
+    /* This ensures the bullet points are included in the content box */
+    list-style-position: inside;
+}
+
+
+
+li {
+    margin-bottom: 15px;;
+}
+
+li a{
+    /* text-decoration: none; */
+    color: #3d82cc;
+}
